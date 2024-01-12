@@ -16,7 +16,7 @@ const Lists: FC = () => {
   const {setIsOpenModal, setSelectedTodolist} = useModals();
   const onNew = () => {
     setIsOpenModal('createList');
-    setSelectedTodolist();
+    setSelected();
   };
 
   useEffect(() => {

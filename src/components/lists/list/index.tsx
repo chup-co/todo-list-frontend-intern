@@ -1,6 +1,6 @@
 import {FC} from 'react';
 
-import {ITodolistResponse} from '@/data/api/types/todolist.type';
+import { ITodolistResponse} from '@/data/api/types/todolist.type';
 
 import Item from './items';
 

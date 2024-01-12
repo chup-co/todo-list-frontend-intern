@@ -6,6 +6,7 @@ export interface ITaskCard {
   completedTaskCount: number;
   totalTaskCount: number;
   bgColor?: string;
+  
 }
 
 const TaskCard: FC<ITaskCard> = ({title, dueDate, completedTaskCount, totalTaskCount, bgColor = 'bg-gray-300'}) => {
@@ -44,7 +45,7 @@ const TaskCard: FC<ITaskCard> = ({title, dueDate, completedTaskCount, totalTaskC
               </div>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2">k
               <div className="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
                   <circle cx="4" cy="4" r="4" fill="#22C55E" />
